@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(238, 16, 223);
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.deletar{
+    padding: 3%;
+    background-color: rgb(235, 62, 62);
+    border-radius: 10%;
+}
+
+.alterar{
+    padding: 3%;
+    background-color: rgb(240, 199, 17);
+    border-radius: 10%;
+    margin-left: 5%;
+}

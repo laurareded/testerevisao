@@ -1,0 +1,26 @@
+### testando raiz do projeto
+GET  http://localhost:5152
+
+### Listar todas as tarefas
+GET http://localhost:5152/tarefas/listar
+
+### Cadastrar uma nova tarefa
+POST http://localhost:5152/tarefas/cadastrar
+Content-Type: application/json
+
+{
+    "titulo": "Estudar Node.js",
+    "descricao": "Estudar Node.js para desenvolver aplicações web",
+    "categoriaId": "6d091456-5a2f-4b5a-98fc-f1a3b50a627d"
+}
+
+### Listar todas as categorias
+GET http://localhost:5152/categoria/listar
+
+### Cadastrar uma categoria
+POST http://localhost:5152/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Pessoal"
+}
